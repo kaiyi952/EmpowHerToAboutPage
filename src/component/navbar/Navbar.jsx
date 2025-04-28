@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button.jsx';
 import './GooeyNav.css';
 import React from 'react';
 
