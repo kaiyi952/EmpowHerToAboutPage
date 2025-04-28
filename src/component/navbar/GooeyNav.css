@@ -1,0 +1,53 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+.navbar {
+  font-family: 'DM Serif Text', serif;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  display: flex;
+  padding: 12px 30px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #d8c6e4;
+  z-index: 1000;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  color: #5d2b81;
+  background-color: #d8c6e4;
+  padding: 0;
+}
+
+.rightNav {
+  display: flex;
+  gap: 5px;
+}
+.navLink {
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #5d2b81;
+  background: #d8c6e4;
+}
+
+.navLink:hover {
+  color: white;
+  background-color: #5d2b81;
+}
+
+.donate {
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  background-color: #5d2b81;
+  border-radius: 10px;
+}
+
+.donate:hover {
+  color: white;
+}

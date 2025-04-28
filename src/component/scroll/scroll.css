@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+.scrollTitle {
+  font-family: 'DM Serif Text', serif;
+  color: #5d2b81;
+  font-size: 4rem;
+}
+
+.scrollText {
+  font-family: 'DM Serif Text', serif;
+  color: #5d2b81;
+  font-size: 2rem;
+}

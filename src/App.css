@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@custom-variant dark (&:is(.dark *));
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  font-family: 'DM Serif Text', serif;
+
+  color: #5d2b81;
+  font-weight: 800;
+  padding: 0 150px;
+}
+
+.introPara {
+  margin-top: 2rem;
+  font-size: 1rem;
+  max-width: 80%;
+}
+
+.logo2 {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.scroll {
+  padding: 0 140px;
+}
+.boardGallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boardTitle {
+  font-family: 'DM Serif Text', serif;
+  font-size: 4rem;
+  color: #5d2b81;
+  font-weight: 700;
+}
